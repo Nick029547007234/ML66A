@@ -1,5 +1,5 @@
 streamlit==1.54.0
-streamlit-option-menu==0.40
+streamlit-option-menu==0.4.0
 
 numpy==1.26.4
 pandas==2.1.4
