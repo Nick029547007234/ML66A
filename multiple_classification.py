@@ -9,8 +9,8 @@ import pickle
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-riding_model = pickle.load(open("C:/Users/Lab/Desktop/ML/Riding_model.sav",'rb'))
-loan_model = pickle.load(open("C:/Users/Lab/Desktop/ML/loan_model.sav",'rb'))
+riding_model = pickle.load(open("Riding_model.sav",'rb'))
+loan_model = pickle.load(open("loan_model.sav",'rb'))
 
 
 with st.sidebar:
@@ -125,4 +125,5 @@ if(selected == 'Riding'):
             
           Riding_prediction = 'Owner'
           
+
     st.success(Riding_prediction)
